@@ -13,6 +13,8 @@
 		6DF5B15F1C99ACD6006FD947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5B15D1C99ACD6006FD947 /* Main.storyboard */; };
 		6DF5B1611C99ACD6006FD947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5B1601C99ACD6006FD947 /* Assets.xcassets */; };
 		6DF5B1641C99ACD6006FD947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5B1621C99ACD6006FD947 /* LaunchScreen.storyboard */; };
+		6DF5B1701C99AEE8006FD947 /* FourCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5B16D1C99AEE8006FD947 /* FourCornerView.m */; };
+		6DF5B1711C99AEE8006FD947 /* ScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5B16F1C99AEE8006FD947 /* ScannerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		6DF5B1601C99ACD6006FD947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DF5B1631C99ACD6006FD947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DF5B1651C99ACD6006FD947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF5B16C1C99AEE8006FD947 /* FourCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourCornerView.h; sourceTree = "<group>"; };
+		6DF5B16D1C99AEE8006FD947 /* FourCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourCornerView.m; sourceTree = "<group>"; };
+		6DF5B16E1C99AEE8006FD947 /* ScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerController.h; sourceTree = "<group>"; };
+		6DF5B16F1C99AEE8006FD947 /* ScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		6DF5B1531C99ACD6006FD947 /* ScanItem */ = {
 			isa = PBXGroup;
 			children = (
+				6DF5B16B1C99AEE8006FD947 /* Scan */,
 				6DF5B1571C99ACD6006FD947 /* AppDelegate.h */,
 				6DF5B1581C99ACD6006FD947 /* AppDelegate.m */,
 				6DF5B15A1C99ACD6006FD947 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				6DF5B1551C99ACD6006FD947 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DF5B16B1C99AEE8006FD947 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5B16C1C99AEE8006FD947 /* FourCornerView.h */,
+				6DF5B16D1C99AEE8006FD947 /* FourCornerView.m */,
+				6DF5B16E1C99AEE8006FD947 /* ScannerController.h */,
+				6DF5B16F1C99AEE8006FD947 /* ScannerController.m */,
+			);
+			path = Scan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +169,9 @@
 			files = (
 				6DF5B15C1C99ACD6006FD947 /* ViewController.m in Sources */,
 				6DF5B1591C99ACD6006FD947 /* AppDelegate.m in Sources */,
+				6DF5B1711C99AEE8006FD947 /* ScannerController.m in Sources */,
 				6DF5B1561C99ACD6006FD947 /* main.m in Sources */,
+				6DF5B1701C99AEE8006FD947 /* FourCornerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
